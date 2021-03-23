@@ -1,0 +1,65 @@
+/* CSS RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+/*--------------------------*/
+
+body {
+  color: rgb(187, 184, 184);
+  height: 100vh;
+  background: url('assets/freedom2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  
+}
+
+li {
+  display: inline;
+}
+
+.quote {
+  margin: 0 auto;
+  max-width: 90%;
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  text-shadow: 2px 2px 8px rgb(170, 166, 166);
+  font-size: 3.25rem; 
+  padding-top: 5rem;
+  line-height: 4rem;
+}
+
+.author {
+  margin-top: 5rem;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
+}
+
+.icon {
+  border: 1px solid rgb(170, 166, 166);
+  width: 1.675rem;
+  height: 1.05rem;
+  filter: grayscale(80%);
+  transition: all 0.5s ease-in-out;
+}
+
+.nav {
+  width: 15%;
+  margin: .5rem .5rem;
+  text-align: center;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  filter: grayscale(30%);
+}
+
+@media (max-width: 420px) {
+  .quote {
+    font-size: 1.125rem;
+    line-height: 2rem;
+ }
+}
